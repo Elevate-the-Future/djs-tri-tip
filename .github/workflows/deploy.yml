@@ -1,0 +1,11 @@
+name: deploy
+
+on: push
+
+jobs:
+  go-build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+      - run: bash deploy.sh
