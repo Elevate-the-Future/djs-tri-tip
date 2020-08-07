@@ -8,7 +8,7 @@ echo "====[ COPYING FOLDER ]===="
 rm -rf docs/
 cp -Rf djs-tri-trip/ docs/
 
-echo "====[ UPDATING VERSION CONTROL ]===="
+echo "====[ UPDATING SITE ]===="
 git add .
 git commit -m "Automatically deploy"
 git push
