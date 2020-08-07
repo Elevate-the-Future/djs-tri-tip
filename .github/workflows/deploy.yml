@@ -8,4 +8,4 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v2
-      - run: bash deploy.sh
+      - run: /usr/bin/env bash .github/deploy.sh
