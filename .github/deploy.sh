@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 echo "====[ SETTING UP GIT ]===="
-git config --global user.name "Safin Singh"
-git config --global user.email "safin.singh@gmail.com"
+git config --global user.name "Raadwan Masum"
+git config --global user.email "piraadwan@gmail.com"
 
 echo "====[ COPYING FOLDER ]===="
 rm -rf docs/
