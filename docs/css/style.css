@@ -135,6 +135,28 @@ hr {
   color: #f2a81f;
 }
 
+.navbar .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.navbar .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.navbar .dropdown-content a {
+  padding: 6px 8px;
+  text-decoration: none;
+  display: block;
+}
+
+.navbar .dropdown:hover .dropdown-content {display: block;}
+
 /* home section */
 #home {
   background: url("../images/home-bg.jpg") 50% 0 repeat-y fixed;
@@ -352,4 +374,56 @@ footer .fa {
 }
 #copyright a:hover {
   color: #ff0;
+}
+
+.containercalendar {
+      box-sizing: border-box;
+      font-size: 17.50px;
+    }
+
+    .containercalendar {
+      color: black;
+      font-size: 1.6rem;
+      background-color: #FAFAFA;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .logo {
+      margin: 1.6rem auto;
+      text-align: center;
+    }
+
+    .containercalendar a,
+    .containercalendar a:visited {
+      color: #cc4125;
+    }
+
+    .containercalendar {
+      width: 96%;
+      margin: 1.6rem auto;
+      max-width: 42rem;
+      text-align: center;
+    }
+
+    .demo-picked {
+      font-size: 1.2rem;
+      text-align: center;
+    }
+
+    .demo-picked span {
+      font-weight: bold;
+    }
+
+.main-cal {
+  margin-top: 5%;
+}
+
+.main-cal .col-xl-6 h3 {
+  font-weight: bolder;
+  text-align: center;
+}
+
+.main-cal .col-lg-6 {
+  display: flex;
+  align-items: center;
 }
