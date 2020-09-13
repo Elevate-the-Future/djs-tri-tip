@@ -427,3 +427,15 @@ footer .fa {
   display: flex;
   align-items: center;
 }
+
+.date-text {
+  background-color: black;
+  color: white;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5vh;
+}
