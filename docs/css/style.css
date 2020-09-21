@@ -149,6 +149,11 @@ hr {
   z-index: 1;
 }
 
+.navbar a.navbar-brand {
+  font-family: Rock Salt;
+  font-size: 15px;
+}
+
 .navbar .dropdown-content a {
   padding: 6px 8px;
   text-decoration: none;
