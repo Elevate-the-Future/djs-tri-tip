@@ -164,10 +164,10 @@ hr {
 
 /* home section */
 #home {
-  background: url("../images/djstop.jpg");
+  background: url("../images/gallery4.jpg");
   -webkit-background-size: cover;
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
   color: #ffffff;
   display: -webkit-box;
   display: -webkit-flex;
@@ -301,7 +301,7 @@ hr {
 
 /* footer section */
 footer {
-  background: url("../images/djs.jpg") 50% 0 repeat-y fixed;
+  background: linear-gradient( rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5) ), url("../images/gallery2.jpg") 50% 0 repeat-y fixed;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center;
