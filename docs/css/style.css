@@ -164,7 +164,7 @@ hr {
 
 /* home section */
 #home {
-  background: linear-gradient( rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5) ), url("../images/gallery4.jpg");
+  background: linear-gradient( rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5) ), url("../images/hero.jpg");
   -webkit-background-size: cover;
   background-size: cover;
   background-position: bottom;
