@@ -164,7 +164,7 @@ hr {
 
 /* home section */
 #home {
-  background: url("../images/gallery4.jpg");
+  background: linear-gradient( rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5) ), url("../images/gallery4.jpg");
   -webkit-background-size: cover;
   background-size: cover;
   background-position: bottom;
@@ -443,4 +443,15 @@ footer .fa {
   justify-content: center;
   align-items: center;
   margin-bottom: 5vh;
+}
+
+.order {
+  background: transparent;
+    border-radius: 0;
+    border: 3px solid #f2a81f;
+    color: #f2a81f;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 16px 42px;
+    transition: all 0.4s ease-in-out;
 }
