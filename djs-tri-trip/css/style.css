@@ -359,7 +359,7 @@ footer .fa {
   padding: 0;
 }
 .social-icon li a:hover {
-  background: #f6d76b;
+  background: #f2a81f;
   top: 5px;
 }
 
@@ -378,7 +378,7 @@ footer .fa {
   color: #ffffff;
 }
 #copyright a:hover {
-  color: #ff0;
+  color: #f2a81f;
 }
 
 .containercalendar {
@@ -454,4 +454,31 @@ footer .fa {
     letter-spacing: 2px;
     padding: 16px 42px;
     transition: all 0.4s ease-in-out;
+}
+
+footer .container .wow.fadeInUp h4 a {
+  color: white;
+  text-decoration: underline;
+}
+footer .container .wow.fadeInUp h4 a:hover {
+  color: #f2a81f;
+}
+
+@media (min-width: 450px) and (max-width: 768px) {
+  #menu > .container > .row .col-md-6.col-sm-6{
+    text-align: center;
+  }
+  #gallery > .container > .row .col-md-4.col-sm-4 {
+    padding-right: 30px;
+    padding-left: 30px
+  }
+  footer .container .row {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  footer .container .row .col-md-6.col-sm-6 {
+    width: 50%;
+    margin-right: 0;
+  }
 }
